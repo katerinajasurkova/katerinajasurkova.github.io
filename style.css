@@ -1,21 +1,42 @@
-h1 {color: deeppink; font-family: "Barrio", system-ui;text-align: center;}
+h1 {
+	color: deeppink;
+	font-family: "Barrio", system-ui;text-align: center;
+	padding: 10px 5px 10px 5px;
+}
 
-h2{color: deeppink; font-family: "Barrio", system-ui}
+h2{
+	color: deeppink;
+	font-family: "Barrio", system-ui
+}
 
-h3{color: deeppink; font-family: "Barrio", system-ui}
-p{color: white;font-family:'Times New Roman', Times, serif ;}
-ul{color: white;list-style-type:none;}
+h3{
+	color: deeppink;
+	font-family: "Barrio", system-ui
+}
+p{
+	color: white;font-family:
+	'Times New Roman', Times, serif ;
+	padding: 15px 10px 15px 10px;
+	margin: 30px 10px 30px 10px;
+}
+ul{
+	color: white;
+	list-style-type:none;
+}
 img {
 	width: 300px;
 	border-radius: 5% 5% 5% 5%;
     box-shadow: rgb(19, 30, 42) 0px 20px 30px -10px;
-	margin: 10px auto 10px auto;
-	
-	
+	margin: 10px auto 10px auto;	
 } 
 
-a{color:deeppink}
-a:hover{color:rgb(196, 88, 147)}
+a{
+	color:deeppink
+}
+a:hover{
+	color:rgb(196, 88, 147)
+}
+
 body {
     background-color: deeppink;
 }
