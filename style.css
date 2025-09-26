@@ -1,27 +1,29 @@
 h1 {
 	color: deeppink;
 	font-family: "Barrio", system-ui;text-align: center;
+	font-size: 100px;
 	padding: 10px 5px 10px 5px;
 }
 
 h2{
 	color: deeppink;
-	font-family: "Barrio", system-ui
+	font-family: "Barrio", system-ui;
+	font-size: 40px;
 }
 
 h3{
 	color: deeppink;
-	font-family: "Barrio", system-ui
+	font-family: "Barrio", system-ui;
+	font-size: 25px;
 }
 p{
-	color: white;font-family:
-	'Times New Roman', Times, serif ;
-	padding: 15px 10px 15px 10px;
-	margin: 30px 10px 30px 10px;
+	color: white;
+	font-family: "Merriweather", serif ;
 }
 ul{
 	color: white;
-	list-style-type:none;
+	list-style-type:circle;
+	font-family: "Merriweather", serif;
 }
 img {
 	width: 300px;
@@ -49,4 +51,7 @@ body {
                      0px 5px 15px;
     margin: 100px auto 100px auto;
     padding: 5px 30px;
+}
+.textovy-blok {
+  text-align: justify;
 }
