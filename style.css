@@ -29,8 +29,13 @@ img {
 	width: 300px;
 	border-radius: 5% 5% 5% 5%;
     box-shadow: rgb(19, 30, 42) 0px 20px 30px -10px;
-	margin: 10px auto 10px auto;	
+	margin: auto 20px;	
 } 
+.obrazky-kontejner {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
 
 a{
 	color:deeppink;
