@@ -26,13 +26,13 @@ ul{
 	font-family: "Merriweather", serif;
 }
 img {
-	max-width: 300px;
-	max-height: 300x;
+	max-width: 250px;
+	max-height: 250x;
 	border-style: dashed;
 	border-color: deeppink;
 	border-radius: 5% 5%;
     box-shadow: rgb(19, 30, 42) 0px 20px 30px -10px;
-	margin: 20px 10px;
+	margin: 10px 10px 10px 5px;
 	padding: 5px 5px;
 } 
 
