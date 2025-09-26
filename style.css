@@ -33,7 +33,8 @@ img {
 } 
 
 a{
-	color:deeppink
+	color:deeppink;
+	font-size: 17px;
 }
 a:hover{
 	color:rgb(196, 88, 147)
