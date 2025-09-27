@@ -49,6 +49,7 @@ body {
     background-color: deeppink;
 }
 
+
 .container {
     background-color: rgb(0, 0, 0);
     max-width: 900px;
@@ -58,6 +59,6 @@ body {
     margin: 100px auto 100px auto;
     padding: 5px 30px;
 }
-.textovy-blok {
+.text-container {
   text-align: justify;
 }
