@@ -19,6 +19,7 @@ h3{
 p{
 	color: white;
 	font-family: "Merriweather", serif ;
+	margin-bottom: 30px;
 }
 ul{
 	color: white;
@@ -61,4 +62,10 @@ body {
 }
 .text-container {
   text-align: justify;
+}
+table {
+	color: white;
+	margin: auto auto 25px auto;
+	border-color: white;
+	
 }
