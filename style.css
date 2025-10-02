@@ -63,9 +63,67 @@ body {
 .text-container {
   text-align: justify;
 }
+
+.zakladni-informace {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-content: normal;
+	justify-content:space-between;
+
+}
+
+.seznam-skladeb {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-content: normal;
+	justify-content:space-between;
+
+}
+
+.nadchazejici-tvorba {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-content: normal;
+	justify-content:space-between;
+}
+
 table {
 	color: white;
 	margin: auto auto 25px 5px;
 	border-color: white;
 	
+
+}
+
+.container2{
+
+}
+#navbar {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    font-size: 24px;
+    font-weight: bold;
+}
+#navbar a {
+    color: white;
+    text-decoration: none;
+}
+#navbar ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+#navbar ul li a {
+    padding: 10px;
+    margin: 0 4px;
+}
+#navbar ul li a:hover {
+    background-color: deeppink;
+    border-radius: 5px;
 }
