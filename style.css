@@ -104,6 +104,7 @@ table {
 #navbar {
     color: white;
     display: flex;
+	flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     padding: 16px;
