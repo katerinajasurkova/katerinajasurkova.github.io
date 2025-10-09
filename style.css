@@ -28,7 +28,6 @@ ul{
 }
 img {
 	max-width: 250px;
-	max-height: 250x;
 	border-style: dashed;
 	border-color: deeppink;
 	border-radius: 5% 5%;
@@ -100,7 +99,6 @@ body {
 table {
 	color: white;
 	margin: auto auto 25px 5px;
-	border-color: none;
 	border: 0px;
 	padding-inline: 20px;
 	padding-block: 20px;
