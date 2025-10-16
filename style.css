@@ -1,9 +1,9 @@
 /* Custom properties/variables  */
 :root {
-  --main-white: #f0f0f0;
-  --main-red: #be3144;
-  --main-blue: #45567d;
-  --main-gray: #303841;
+  --main-white: #f0f7da;
+  --main-red: #77ab59;
+  --main-blue: 	#234d20;
+  --main-gray: #36802d;
 }
 
 /* Base reset */
@@ -115,7 +115,7 @@ img {
   left: 0;
   width: 100%;
   background: var(--main-red);
-  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+  box-shadow: 0 2px 0 	#234d20;
   z-index: 10;
 }
 
@@ -123,6 +123,7 @@ img {
   display: flex;
   margin-right: 2rem;
 }
+
 
 @media (max-width: 28.75em) {
   .nav {
@@ -153,15 +154,15 @@ img {
   align-items: center;
   width: 100%;
   height: 100vh;
-  background-color: #000;
-  background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+  background-color: 	#36802d;
+  background-image: linear-gradient(	#36802d);
 }
 
 .welcome-section > p {
   font-size: 3rem;
-  font-weight: 200;
+  font-weight: 300;
   font-style: italic;
-  color: var(--main-red);
+  color: var(--main-blue);
 }
 
 /* Projects section */
@@ -169,11 +170,14 @@ img {
 .projects-section {
     display: flex;
     text-align: center;
+    flex-wrap: wrap;
     padding: 10rem 2rem;
     background: var(--main-blue);
 }
 
 .projects-section-header {
+    display: flex;
+    text-align: center;
   max-width: 640px;
   margin: 0 auto 6rem auto;
   border-bottom: 0.2rem solid var(--main-white);
@@ -187,6 +191,8 @@ img {
 
 /* "Automagic" image grid using no media queries */
 .projects-grid {
+    display: flex;
+    flex-wrap: wrap;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   grid-gap: 4rem;
@@ -239,9 +245,12 @@ img {
 }
 
 .btn-show-all {
-  font-size: 2rem;
-  background: var(--main-gray);
-  transition: background 0.3s ease-out;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 2rem;
+    background: var(--main-gray);
+    transition: background 0.3s ease-out;
 }
 
 .btn-show-all:hover {
